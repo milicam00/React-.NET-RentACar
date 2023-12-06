@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "T40A06z50EfZf/QShzgjN9DIdDJVe1Mrmhh+a6D10/MEuSNUg+lryyC5yNwk/cWNSumvcQ9WzvsIfp5thpVFZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\acer\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

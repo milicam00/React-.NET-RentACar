@@ -1,0 +1,956 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.API\\OnlineRentCar.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\acer\\Desktop\\Projekat\\BuildingBlocks\\OnlineLibrary.BuildingBlocks.EventBus\\OnlineRentCar.BuildingBlocks.EventBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\Projekat\\BuildingBlocks\\OnlineLibrary.BuildingBlocks.EventBus\\OnlineRentCar.BuildingBlocks.EventBus.csproj",
+        "projectName": "OnlineRentCar.BuildingBlocks.EventBus",
+        "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\BuildingBlocks\\OnlineLibrary.BuildingBlocks.EventBus\\OnlineRentCar.BuildingBlocks.EventBus.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\Projekat\\BuildingBlocks\\OnlineLibrary.BuildingBlocks.EventBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibary.Modules.Catalog.Application\\OnlineRentCar.Modules.Catalog.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibary.Modules.Catalog.Application\\OnlineRentCar.Modules.Catalog.Application.csproj",
+        "projectName": "OnlineRentCar.Modules.Catalog.Application",
+        "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibary.Modules.Catalog.Application\\OnlineRentCar.Modules.Catalog.Application.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibary.Modules.Catalog.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Domain\\OnlineRentCar.Modules.Catalog.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Domain\\OnlineRentCar.Modules.Catalog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.API\\OnlineRentCar.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.API\\OnlineRentCar.API.csproj",
+        "projectName": "OnlineRentCar.API",
+        "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.API\\OnlineRentCar.API.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibary.Modules.Catalog.Application\\OnlineRentCar.Modules.Catalog.Application.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibary.Modules.Catalog.Application\\OnlineRentCar.Modules.Catalog.Application.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Domain\\OnlineRentCar.Modules.Catalog.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Domain\\OnlineRentCar.Modules.Catalog.Domain.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Infrastructure\\OnlineRentCar.Modules.Catalog.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Infrastructure\\OnlineRentCar.Modules.Catalog.Infrastructure.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Application\\OnlineRentCar.Modules.UserAccess.Application.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Application\\OnlineRentCar.Modules.UserAccess.Application.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\OnlineRentCar.Modules.UserAccess.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\OnlineRentCar.Modules.UserAccess.Domain.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Infrastructure\\OnlineRentCar.Modules.UserAccess.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Infrastructure\\OnlineRentCar.Modules.UserAccess.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj",
+        "projectName": "OnlineRentCar.BuildingBlocks.Application",
+        "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj",
+        "projectName": "OnlineRentCar.BuildingBlocks.Domain",
+        "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj",
+        "projectName": "OnlineRentCar.BuildingBlocks.Infrastructure",
+        "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Domain\\OnlineRentCar.Modules.Catalog.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Domain\\OnlineRentCar.Modules.Catalog.Domain.csproj",
+        "projectName": "OnlineRentCar.Modules.Catalog.Domain",
+        "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Domain\\OnlineRentCar.Modules.Catalog.Domain.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\OnlineRentCar.Modules.UserAccess.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\OnlineRentCar.Modules.UserAccess.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Infrastructure\\OnlineRentCar.Modules.Catalog.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Infrastructure\\OnlineRentCar.Modules.Catalog.Infrastructure.csproj",
+        "projectName": "OnlineRentCar.Modules.Catalog.Infrastructure",
+        "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Infrastructure\\OnlineRentCar.Modules.Catalog.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.Catalog.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\Projekat\\BuildingBlocks\\OnlineLibrary.BuildingBlocks.EventBus\\OnlineRentCar.BuildingBlocks.EventBus.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\BuildingBlocks\\OnlineLibrary.BuildingBlocks.EventBus\\OnlineRentCar.BuildingBlocks.EventBus.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibary.Modules.Catalog.Application\\OnlineRentCar.Modules.Catalog.Application.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibary.Modules.Catalog.Application\\OnlineRentCar.Modules.Catalog.Application.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Application\\OnlineRentCar.Modules.UserAccess.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Application\\OnlineRentCar.Modules.UserAccess.Application.csproj",
+        "projectName": "OnlineRentCar.Modules.UserAccess.Application",
+        "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Application\\OnlineRentCar.Modules.UserAccess.Application.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Application\\OnlineRentCar.BuildingBlocks.Application.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\OnlineRentCar.Modules.UserAccess.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\OnlineRentCar.Modules.UserAccess.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.151, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\OnlineRentCar.Modules.UserAccess.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\OnlineRentCar.Modules.UserAccess.Domain.csproj",
+        "projectName": "OnlineRentCar.Modules.UserAccess.Domain",
+        "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\OnlineRentCar.Modules.UserAccess.Domain.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Domain\\OnlineRentCar.BuildingBlocks.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Infrastructure\\OnlineRentCar.Modules.UserAccess.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Infrastructure\\OnlineRentCar.Modules.UserAccess.Infrastructure.csproj",
+        "projectName": "OnlineRentCar.Modules.UserAccess.Infrastructure",
+        "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Infrastructure\\OnlineRentCar.Modules.UserAccess.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\acer\\Desktop\\Projekat\\BuildingBlocks\\OnlineLibrary.BuildingBlocks.EventBus\\OnlineRentCar.BuildingBlocks.EventBus.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\BuildingBlocks\\OnlineLibrary.BuildingBlocks.EventBus\\OnlineRentCar.BuildingBlocks.EventBus.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.BuildingBlocks.Infrastructure\\OnlineRentCar.BuildingBlocks.Infrastructure.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Application\\OnlineRentCar.Modules.UserAccess.Application.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Application\\OnlineRentCar.Modules.UserAccess.Application.csproj"
+              },
+              "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\OnlineRentCar.Modules.UserAccess.Domain.csproj": {
+                "projectPath": "C:\\Users\\acer\\Desktop\\Projekat\\OnlineLibrary.Modules.UserAccess.Domain\\OnlineRentCar.Modules.UserAccess.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.151, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
